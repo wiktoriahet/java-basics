@@ -5,21 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3984888-772b-4ab9-8aaf-f0de157b47e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/hetman/wiktoria/solvd/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/hetman/wiktoria/solvd/insertionsort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/hetman/wiktoria/solvd/insertionsort/InsertionSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/hetman/wiktoria/solvd/selectionsort/SelectionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/hetman/wiktoria/solvd/selectionsort/SelectionSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -33,7 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2XIEKYJLgxm8U1i9pfvcgKNVDhr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -41,10 +53,34 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.hetman.wiktoria.solvd.selectionsort" />
+      <recent name="pl.hetman.wiktoria.solvd.insertionsort" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SelectionSortTest.sortDescending">
+    <configuration name="InsertionSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.insertionsort.InsertionSortMain" />
+      <module name="java-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.hetman.wiktoria.solvd.insertionsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.User" />
       <module name="java-basics" />
@@ -58,8 +94,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InsertionSortTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.hetman.wiktoria.solvd.insertionsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.hetman.wiktoria.solvd.insertionsort" />
+      <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.insertionsort.InsertionSortTest" />
+      <option name="METHOD_NAME" value="sort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSortTest.sortAscending" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.hetman.wiktoria.solvd.selectionsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.hetman.wiktoria.solvd.selectionsort" />
+      <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.selectionsort.SelectionSortTest" />
+      <option name="METHOD_NAME" value="sortAscending" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSortTest.sortDescending" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.hetman.wiktoria.solvd.selectionsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.hetman.wiktoria.solvd.selectionsort" />
+      <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.selectionsort.SelectionSortTest" />
+      <option name="METHOD_NAME" value="sortDescending" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SelectionSortTest.sortDescending" />
+        <item itemvalue="JUnit.SelectionSortTest.sortAscending" />
+        <item itemvalue="JUnit.InsertionSortTest.sort" />
+        <item itemvalue="Application.InsertionSortMain" />
         <item itemvalue="Application.User" />
       </list>
     </recent_temporary>
@@ -73,6 +161,18 @@
       <option name="presentableId" value="Default" />
       <updated>1698308131331</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created basic System.out app">
+      <created>1698309314908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698309314908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created basic System.out app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created basic System.out app" />
   </component>
 </project>
