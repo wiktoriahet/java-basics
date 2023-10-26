@@ -1,0 +1,109 @@
+* JDK vs JRE?
+
+JRE - Java Runtime Environment - used to run Java programs.
+
+JDK (Java Development Kit) - a cross-platformed software development environment
+that offers a collection of tools and libraries necessary for developing Java-based
+software applications and applets.
+It is a core package used in Java, along with JVM (Java Virtual Machine)
+and JRE (Java Runtime Environment).
+
+JDK contains:
+-Java Runtime Environment (JRE)
+-An interpreter/loader (Java)
+-A compiler (javac)
+-An archiver (jar)
+-and many more
+
+JDK = JRE + Development Tools
+JRE = JVM + Library Classes
+
+
+* How does Java support multi-platforms?
+
+The source code written in Java is convert by the compiler (javac) into a format
+that is understood by a machine (bytecode / .class file). The bytecode generated is
+a non-executable code and needs an interpreter to execute on a machine.
+This interpreter is the JVM. Bytecode is executed by the JVM. JVM is different for
+each operating system.
+
+* What is JAVA_HOME? PATH?
+
+JAVA_HOME environment variable points to the JDK installation directory.
+Other Java-dependent programs can use this variable to access the JDK/JRE path.
+In most cases JAVA_HOME is set to point to the JDK path instead of JRE.
+
+The operating system uses the PATH environment variable to find the native executable
+programs to run. In Windows the executable programs end with a .exe extension.
+Once we point the exe program's directory in PATH, we can invoke the same in the
+command-line without the need to specify its full path.
+For Java programs to run, we need to list the JDK installation directory along
+with the bin directory in the PATH variable. The bin directory
+holds the Java executables.
+
+To conclude - JAVA_HOME environment variable is used by programs mostly targeted
+as development tools. On the other hand, user-facing applications need the PATH
+environment variable to know the location of the JVM.
+
+* What is the starting point of a Java application?
+
+public static void main(String[] args){}
+
+* What primitive types do you know?
+
+- byte - signed, min value of -128, max value 127 (inclusive)
+- short - signed, min value -32 768, max value 32 767 (inclusive)
+- int - min value -2(31), max value 2(31)-1, in Java SE 8 and later,
+can be used as unsigned int, min 0, max 2(32)-1. To do it Integer class is
+needed.
+- long - signed, min -2(63), max 2(63)-1. Java 8 and later - can be used unsigned.
+(min 0, max 2(64)-1)
+- float - single-precision floating point (never to be used for precise values)
+- double - double precision floating point (never to be used for precise valuses)
+- boolean - two values- true and false
+- char - a single Unicode character
+
+* Is String a primitive type?
+
+No, it's a reference type.
+
+* How to extend String?
+
+We can't extend String class because it's final.
+
+* What operators do you know?
+
+postfix                 expr++, expr--
+unary                   ++expr, --expr, +expr, -expr, ~, !
+multiplicative          *, /, %
+additive                +, -
+shift                   <<, >>, >>>
+relational              <, >, <=, >=
+equality                ==, !=
+bitwise AND             &
+bitwise exclusive OR    ^
+bitwise inclusive OR    |
+logical AND             &&
+logical OR              ||
+ternary                 ?, :
+assignment               =, +=, -=, *=, /=, %=, &=, ^=, |=, <<=, >>=, >>>=
+
+* When will you choose to switch or if?
+
+1. An if-else statement can test expression based on ranges of values or conditions,
+whereas a switch statement tests expression based
+only on a single integer, enumerated value, or String objects.
+2. If we need to select among a large group of values, a switch statement will run
+much faster than the equivalent logic coded using a sequence of if-elses.
+The compiler can do this because it knows that the case constants are
+all the same type and simply must be compared for equality with the switch
+expression, while in case of if expressions, the compiler has no such knowledge.
+3. if-else is better for boolean values,
+switch statements are great for fixed data values
+4. Switch is more readable.
+
+-What are your lecturer's name and title?
+
+Bogdan Rutskov - Lecturer,
+Head of Backend Java Competency Center,
+Development in Solvd
