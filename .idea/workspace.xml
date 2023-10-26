@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f3984888-772b-4ab9-8aaf-f0de157b47e0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/hetman/wiktoria/solvd/bubblesort/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/hetman/wiktoria/solvd/bubblesort/BubbleSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,18 +59,19 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.hetman.wiktoria.solvd.mergesort" />
       <recent name="pl.hetman.wiktoria.solvd.bubblesort" />
       <recent name="pl.hetman.wiktoria.solvd.selectionsort" />
       <recent name="pl.hetman.wiktoria.solvd.insertionsort" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BubbleSortTest.bubbleSort">
-    <configuration name="InsertionSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.insertionsort.InsertionSortMain" />
+  <component name="RunManager" selected="JUnit.MergeSortTest.sort">
+    <configuration name="MergeSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.mergesort.MergeSortMain" />
       <module name="java-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.hetman.wiktoria.solvd.insertionsort.*" />
+          <option name="PATTERN" value="pl.hetman.wiktoria.solvd.mergesort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,16 +95,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.hetman.wiktoria.solvd.insertionsort.*" />
+          <option name="PATTERN" value="pl.hetman.wiktoria.solvd.mergesort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.hetman.wiktoria.solvd.insertionsort" />
-      <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.insertionsort.InsertionSortTest" />
+      <option name="PACKAGE_NAME" value="pl.hetman.wiktoria.solvd.mergesort" />
+      <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.mergesort.MergeSortTest" />
       <option name="METHOD_NAME" value="sort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeSortTest.sort" />
+        <item itemvalue="Application.MergeSortMain" />
         <item itemvalue="JUnit.BubbleSortTest.bubbleSort" />
         <item itemvalue="JUnit.SelectionSortTest.sortDescending" />
         <item itemvalue="JUnit.SelectionSortTest.sortAscending" />
-        <item itemvalue="JUnit.InsertionSortTest.sort" />
-        <item itemvalue="Application.InsertionSortMain" />
       </list>
     </recent_temporary>
   </component>
@@ -169,11 +169,38 @@
       <option name="project" value="LOCAL" />
       <updated>1698309314908</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created bubble sort example">
+      <created>1698313948632</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698313948632</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created test for bubble sort">
+      <created>1698314046692</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698314046692</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created basic System.out app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created basic System.out app" />
+    <MESSAGE value="created bubble sort example" />
+    <MESSAGE value="created test for bubble sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="created test for bubble sort" />
   </component>
 </project>
