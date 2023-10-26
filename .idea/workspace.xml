@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3984888-772b-4ab9-8aaf-f0de157b47e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/hetman/wiktoria/solvd/insertionsort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/hetman/wiktoria/solvd/insertionsort/InsertionSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/hetman/wiktoria/solvd/selectionsort/SelectionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/hetman/wiktoria/solvd/selectionsort/SelectionSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/hetman/wiktoria/solvd/bubblesort/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/hetman/wiktoria/solvd/bubblesort/BubbleSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,25 +46,26 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.hetman.wiktoria.solvd.bubblesort" />
       <recent name="pl.hetman.wiktoria.solvd.selectionsort" />
       <recent name="pl.hetman.wiktoria.solvd.insertionsort" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SelectionSortTest.sortDescending">
+  <component name="RunManager" selected="JUnit.BubbleSortTest.bubbleSort">
     <configuration name="InsertionSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.insertionsort.InsertionSortMain" />
       <module name="java-basics" />
@@ -81,15 +79,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.User" />
+    <configuration name="BubbleSortTest.bubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.hetman.wiktoria.solvd.*" />
+          <option name="PATTERN" value="pl.hetman.wiktoria.solvd.bubblesort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="pl.hetman.wiktoria.solvd.bubblesort" />
+      <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.bubblesort.BubbleSortTest" />
+      <option name="METHOD_NAME" value="bubbleSort" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BubbleSortTest.bubbleSort" />
         <item itemvalue="JUnit.SelectionSortTest.sortDescending" />
         <item itemvalue="JUnit.SelectionSortTest.sortAscending" />
         <item itemvalue="JUnit.InsertionSortTest.sort" />
         <item itemvalue="Application.InsertionSortMain" />
-        <item itemvalue="Application.User" />
       </list>
     </recent_temporary>
   </component>
