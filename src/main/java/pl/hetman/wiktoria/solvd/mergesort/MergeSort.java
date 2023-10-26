@@ -2,31 +2,31 @@ package pl.hetman.wiktoria.solvd.mergesort;
 
 public class MergeSort {
 
-    public int[] sort(int[] arr, int left, int right) {
+    public int[] sort(int[] arr, int lowIndex, int highIndex) {
 
-        if (left < right) {
-            int middle = left + (right - left) / 2;
-            sort(arr, left, middle);
-            sort(arr, middle + 1, right);
-            merge(arr, left, middle, right);
+        if (lowIndex < highIndex) {
+            int middleIndex = lowIndex + (highIndex - lowIndex) / 2;
+            sort(arr, lowIndex, middleIndex);
+            sort(arr, middleIndex + 1, highIndex);
+            merge(arr, lowIndex, middleIndex, highIndex);
         }
         return arr;
     }
 
-    private int[] merge(int arr[], int low, int middle, int high) {
+    private int[] merge(int arr[], int lowIndex, int middleIndex, int highIndex) {
 
-        int[] leftArray = new int[middle - low + 1];
-        int[] rightArray = new int[high - middle];
+        int[] leftArray = new int[middleIndex - lowIndex + 1];
+        int[] rightArray = new int[highIndex - middleIndex];
 
         for (int i = 0; i < leftArray.length; ++i) {
-            leftArray[i] = arr[low + i];
+            leftArray[i] = arr[lowIndex + i];
         }
         for (int j = 0; j < rightArray.length; ++j) {
-            rightArray[j] = arr[middle + 1 + j];
+            rightArray[j] = arr[middleIndex + 1 + j];
         }
 
         int i = 0, j = 0;
-        int k = low;
+        int k = lowIndex;
 
         while (i < leftArray.length && j < rightArray.length) {
 

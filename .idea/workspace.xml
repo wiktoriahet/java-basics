@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f3984888-772b-4ab9-8aaf-f0de157b47e0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/hetman/wiktoria/solvd/mergesort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/hetman/wiktoria/solvd/mergesort/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,15 +16,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="merge-sort" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,13 +60,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.hetman.wiktoria.solvd.quicksort" />
       <recent name="pl.hetman.wiktoria.solvd.mergesort" />
       <recent name="pl.hetman.wiktoria.solvd.bubblesort" />
       <recent name="pl.hetman.wiktoria.solvd.selectionsort" />
       <recent name="pl.hetman.wiktoria.solvd.insertionsort" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeSortTest.sort">
+  <component name="RunManager" selected="JUnit.QuicksortTest.quicksort">
     <configuration name="MergeSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.mergesort.MergeSortMain" />
       <module name="java-basics" />
@@ -111,17 +113,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortTest.sortAscending" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuicksortTest.quicksort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.hetman.wiktoria.solvd.selectionsort.*" />
+          <option name="PATTERN" value="pl.hetman.wiktoria.solvd.quicksort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.hetman.wiktoria.solvd.selectionsort" />
-      <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.selectionsort.SelectionSortTest" />
-      <option name="METHOD_NAME" value="sortAscending" />
+      <option name="PACKAGE_NAME" value="pl.hetman.wiktoria.solvd.quicksort" />
+      <option name="MAIN_CLASS_NAME" value="pl.hetman.wiktoria.solvd.quicksort.QuicksortTest" />
+      <option name="METHOD_NAME" value="quicksort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuicksortTest.quicksort" />
         <item itemvalue="JUnit.MergeSortTest.sort" />
         <item itemvalue="Application.MergeSortMain" />
         <item itemvalue="JUnit.BubbleSortTest.bubbleSort" />
         <item itemvalue="JUnit.SelectionSortTest.sortDescending" />
-        <item itemvalue="JUnit.SelectionSortTest.sortAscending" />
       </list>
     </recent_temporary>
   </component>
